@@ -1,0 +1,313 @@
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  #topbar {
+    width: 1000px;
+    height: 40px;
+    margin: 0 auto;
+  }
+
+  #logo {
+    margin-top: 8px;
+    width: 100px;
+    float: left;
+    margin-right: 8px;
+  }
+
+  .topbar-section {
+    float: left;
+    border-left: 1px solid rgb(204, 204, 204);
+    height: 100%;
+  }
+
+  .fa-user-circle{
+    margin: 10px 15px;
+    float:left;
+  }
+
+  #signin-text {
+    font-weight: bold;
+    font-size: 90%;
+    position: relative;
+    top: 13px;
+    padding-right: 50px;
+  }
+
+  #wigglyline {
+    height: 40px;
+    float: left;
+  }
+
+  .fa-bell {
+    margin: 10px 10px 0px 10px;
+    float: left;
+  }
+
+  .bell-div{
+    float: left;
+  }
+
+  .topbar-menu {
+    font-weight: bold;
+    font-size: 90%;
+    padding: 10px 10px 0 10px;
+    height: 30px;
+  }
+
+  .more1 {
+    margin-top: 3px;
+    margin-left: 15px;
+    margin-right: 5px;
+    float:left;
+  }
+
+  #search-box {
+    background-color: #A9A9A9A9;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+    margin: 8px 0 5px 5px;
+    float: left;
+  }
+
+  .fa-search {
+    background-color: #A9A9A9A9;
+    padding: 5px;
+    margin-top: 8px;
+    height: 17px;
+    color: black;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  #menu-bar-container {
+    border-top: 1px solid rgb(204, 204, 204);
+    background-color: rgb(187, 25, 25);
+    width: 100%;
+    height: 70px;
+  }
+
+  #menu-bar {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    padding:0;
+    margin: 0;
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+  }
+
+  #local-news {
+    border: 1px solid #BB4545;
+    float: right;
+    margin-top: 15px;
+    padding: 5px;
+  }
+
+  #local-news a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+  }
+
+  #local-news a:hover {
+    text-decoration: underline;
+  }
+
+  .fa-map-marker-alt {
+    color: white;
+  }
+
+  #menu-bar-nav-container {
+    background-color: rgb(169,23,23);
+    width: 100%;
+  }
+
+  #menu-bar-nav {
+    width: 1000px;
+    margin: 0 auto;
+    height: 40px;
+  }
+
+
+  #menu-bar-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    border-right: 1px solid rgb(204, 204, 204);
+    position: relative;
+    top: 10px;
+  }
+
+    #menu-bar-nav a:hover {
+      text-decoration: underline;
+    }
+
+
+  .no-border {
+    border: none !important;
+  }
+
+  .no-padding {
+    padding-left: 0 !important;
+  }
+
+  .more2 {
+    float: right;
+    position: relative;
+    top: 3px;
+    right: 15px;
+    color: white;
+  }
+
+  #page-container {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  #h2-left {
+    font-weight: normal;
+    margin-top: 40px;
+    font-size: 20px;
+    border-bottom: 3px solid #A91717;
+    width: 105px;
+  }
+
+  h3 a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+  h3 a:hover{
+    color: rgb(17, 103, 168);
+  }
+
+  #article-summary {
+    width: 220px;
+    color: #5A5A5A;
+    float: left;
+  }
+
+  .clock1 {
+    margin-right: 5px;
+    position: relative;
+    top: -1px;
+  }
+
+  #date {
+    width: 220px;
+    font-size: 14px;
+  }
+
+  #date a {
+    color: rgb(187, 25, 25);
+    text-decoration: none;
+    border-left: 1px solid #CCCCCC;
+    padding-left: 5px;
+  }
+
+  #date a:hover {
+    color: rgb(17, 103, 168);
+  }
+
+  #article-container {
+    float: left;
+    width: 650px;
+    border-right: 1px solid #CCCCCC;
+    padding-right: 20px;
+  }
+
+  #main-article-img {
+    float: right;
+    width: 400px;
+  }
+
+  #article-hr {
+    width: 40px;
+    position: relative;
+    top: -5px;
+    border: 1px solid #A91717;
+  }
+
+  .main-article-links {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .main-article-links:hover {
+    color: rgb(17, 103, 168);
+  }
+
+  #watch-listen {
+    width: 309px;
+    float: right;
+    margin-left: 20px;
+  }
+
+  #h2-right {
+    font-weight: normal;
+  }
+
+  .article-side-image {
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+
+  }
+
+  .watch-listen-link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .watch-listen-link:hover {
+    color: rgb(17, 103, 168);
+  }
+
+  #date2 {
+    font-size: 13px;
+    color: #5A5A5A;
+  }
+
+  .clock2 {
+    margin-right: 5px;
+    position: relative;
+    top: -1px;
+  }
+
+  .topic-link {
+    color: rgb(187, 25, 25);
+    text-decoration: none;
+    margin-left: 5px;
+  }
+
+  .side-article {
+    float: right;
+    width: 190px;
+    position: relative;
+    top: -15px;
+  }
+
+  .border-left {
+    border-left: 1px solid red;
+    padding-left: 7px;
+    border-color:  #5A5A5A;
+  }
